@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree";
+}
+
+.top-header {
+  background-image: url(./Images/bg-header-desktop.png);
+  padding: 20px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  padding: 128px 0 110px;
+}
+.main-header {
+  text-align: center;
+}
+h1 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: -0.75px;
+}
+p {
+  color: #9eabb2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  width: 38%;
+  margin: 16px auto;
+}
+.bttns {
+  margin: 48px auto;
+}
+.btn1 {
+  width: 227px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+    0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.btn2 {
+  width: 227px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+    0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.main-texts {
+  text-align: center;
+  margin-top: 150px;
+}
+.main-texts h2 {
+  color: #4c545c;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.587px;
+}
+.main-texts p {
+  color: #9eabb2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  margin-top: 80px;
+}
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.description1 h3 {
+  color: #4c545c;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.391px;
+}
+.description1 p {
+  color: #9eabb2;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  width: 55%;
+}
+.computer-image {
+  margin-left: -30px;
+}
+.section-3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 112px;
+  margin-top: 150px;
+}
+.section-3 p {
+  color: #9eabb2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+.devices-image {
+  width: 40%;
+  display: flex;
+  align-self: center;
+}
+.section-4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 163px;
+  align-items: center;
+}
+.tools {
+  display: flex;
+  margin-top: 76px;
+}
+.tool {
+  width: 50%;
+  text-align: center;
+  gap: 30px;
+}
+.tool h3 {
+  margin-top: 44px;
+  color: #4c545c;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.391px;
+}
+.tool p {
+  margin-top: 16px;
+  color: #9eabb2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  width: 73%;
+}
+.clipboard {
+  text-align: center;
+}
+.clipboard h2 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.587px;
+}
+.clipboard p {
+  color: #9eabb2;
+  font-size: 18px;
+  width: 65%;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+.bttns1 {
+  margin-top: 48px;
+}
